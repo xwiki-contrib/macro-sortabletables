@@ -30,7 +30,7 @@
   <groupId>org.xwiki.contrib</groupId>
   <artifactId>macro-sortabletables</artifactId>
   <name>Make All Tables Sortable Macro</name>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>xar</packaging>
   <description>Makes all wiki tables on the page it is inserted sortable (and optionally filterable)</description>
   <properties>
@@ -42,7 +42,7 @@
     <connection>scm:git:git://github.com/xwiki-contrib/macro-sortabletables.git</connection>
     <developerConnection>scm:git:git@github.com:xwiki-contrib/macro-sortabletables.git</developerConnection>
     <url>https://github.com/xwiki-contrib/macro-sortabletables.git</url>
-    <tag>HEAD</tag>
+    <tag>macro-sortabletables-1.0</tag>
   </scm>
   <developers>
     <developer>
