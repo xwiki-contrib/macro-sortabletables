@@ -461,7 +461,7 @@ var macro_sortabletables_filterable = #if($xcontext.macro.params.filterable=="ye
       <defaultCategory/>
     </property>
     <property>
-      <description>Makes all tables in the content of the current page sorteable.</description>
+      <description>Makes all tables in the content of the current page sortable.</description>
     </property>
     <property>
       <id>sortable_tables</id>
