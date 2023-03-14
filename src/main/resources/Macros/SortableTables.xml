@@ -156,9 +156,14 @@
   }
 
   $$("#xwikicontent table").each(function(table) {
-    if (table.getAttribute('class') !== null &amp;&amp; table.getAttribute('class').indexOf('xwiki-livetable') &gt;= 0) {
-      // ignore livetables; they take care of themselves
-      return;
+    var tableClass = table.getAttribute('class')
+    if (tableClass !== null) {
+      if (tableClass.indexOf('xwiki-livetable') &gt;= 0 || tableClass.indexOf('nosort') &gt;= 0) {
+        // ignore livetables; they take care of themselves
+        // also skip all tabes with a class containing "nosort"
+        // which servers as a marker that these tables should not be sorted
+        return;
+      }
     }
     tableCounter++;
     if (macro_sortabletables_sortable) {
